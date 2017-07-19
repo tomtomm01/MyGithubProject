@@ -25,6 +25,12 @@ namespace MyGithubProject
         public MainPage()
         {
             this.InitializeComponent();
+            Loaded += MainPage_Loaded;
+        }
+
+        private void MainPage_Loaded(object sender, RoutedEventArgs e)
+        {
+            throw new NotImplementedException();
         }
     }
 }
